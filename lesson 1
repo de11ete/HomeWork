@@ -1,13 +1,6 @@
 
 public class HomeWorkOne {
     public static void main(String[] args) {
-        int t = -22;
-        //if (t < 0) {
-        //    System.out.println("Уже холодно");
-        //} else {
-        //    System.out.println("Это норм");
-        //}
-        System.out.println(t < 0? "Уже холодно" : "Это норм");
         hello();
         printThreeWords();
         checkSumSign();
