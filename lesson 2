@@ -9,7 +9,7 @@ public class HomeWorkTwo {
         System.out.println(checkSumSign(15, 7));
         chisloPositive(8);
         System.out.println(chisloNegative(-5));
-        strokaChislo();
+        strokaChislo("Ho ho ho", 3);
     }
     
     static boolean checkSumSign(int a, int b) {
@@ -24,12 +24,9 @@ public class HomeWorkTwo {
         return a < 0;
     }
     
-    static void strokaChislo() {
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 49; j++) {
-                System.out.print('8');
-            }
-            System.out.println();
+    static void strokaChislo(String s, int count) {
+        for (int i = 0; i < count; i++) {
+            System.out.println(s);
         }
     }
 }
