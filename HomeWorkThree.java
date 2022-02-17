@@ -69,5 +69,6 @@ class HomeWorkThree {
             arr[i] = initialValue;
             System.out.print("[" + i + "]" + arr[i] + " ");
         }
-    }    
+    }
 }
+
