@@ -97,9 +97,8 @@ class TicTacToe {
     boolean checkWin(char ch) {
         for (int i = 0; i < 3; i++)
             if ((table[i][0] == ch && table[i][1] == ch && table[i][2] == ch) || 
-                    (table[0][i] == ch && table[1][i] == ch && table[2][i] == ch) || 
-                        (table[i][0] == ch && table[i][1] == ch && table[i][2] == ch))
-            return true;
+                    (table[0][i] == ch && table[1][i] == ch && table[2][i] == ch))
+                    return true;
         /*
         if  (table[0][0] == ch && table[0][1] == ch && table[0][2] == ch) return true;
         if  (table[1][0] == ch && table[1][1] == ch && table[1][2] == ch) return true;
