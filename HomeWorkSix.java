@@ -19,21 +19,19 @@ class HomeWorkSix {
 }
 
 class Dog extends Animal {
-    
     Dog(int runLimit, int swimLimit) {
         super(runLimit, swimLimit);
     }
 }
 
 class Cat extends Animal {
-    
     Cat(int runLimit) {
         super(runLimit, 0);
     }
     
     @Override
     public String swim(int distance) {
-        return getClassName() + "cats don't swim";
+        return getClassName() + "cats don't swim ";
     }
 }
 
